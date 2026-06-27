@@ -9,5 +9,8 @@
   "flags": {
     "canUpload": true
   },
-  "description": ""
+  "description": "",
+  "esmodules": [
+    "esmodules/main.js"
+  ]
 }
