@@ -1,4 +1,4 @@
-# gmk-pan-to-placeable
+# GMK - Pan To Placeable
 
 Extends base functionality of the Placeable Sidebar in FoundryVTT.
 
