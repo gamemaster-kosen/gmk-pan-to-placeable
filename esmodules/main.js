@@ -33,25 +33,25 @@ Hooks.on("getDrawingPlaceableContextOptions", (application, menuItems) => {
 
 // panToWall
 Hooks.on("getWallPlaceableContextOptions", (application, menuItems) => {
-    menuItems.push(panToPlaceable("Jump To Token", placeableId => canvas.walls.get(placeableId).document.edge.a));
+    menuItems.push(panToPlaceable("Jump To Wall", placeableId => canvas.walls.get(placeableId).document.edge.a));
 });
 
 // panToLight
 Hooks.on("getAmbientLightPlaceableContextOptions", (application, menuItems) => {
-    menuItems.push(panToPlaceable("Jump To Token", placeableId => canvas.lighting.get(placeableId).document));
+    menuItems.push(panToPlaceable("Jump To Light", placeableId => canvas.lighting.get(placeableId).document));
 });
 
 // panToSound
 Hooks.on("getAmbientSoundPlaceableContextOptions", (application, menuItems) => {
-    menuItems.push(panToPlaceable("Jump To Token", placeableId => canvas.sounds.get(placeableId).document));
+    menuItems.push(panToPlaceable("Jump To Sound", placeableId => canvas.sounds.get(placeableId).document));
 });
 
 // panToRegion
 Hooks.on("getRegionPlaceableContextOptions", (application, menuItems) => {
-    menuItems.push(panToPlaceable("Jump To Token", placeableId => canvas.regions.get(placeableId).document.shapes[0]));
+    menuItems.push(panToPlaceable("Jump To Region", placeableId => canvas.regions.get(placeableId).document.shapes[0]));
 });
 
 // panToNote
 Hooks.on("getNotePlaceableContextOptions", (application, menuItems) => {
-    menuItems.push(panToPlaceable("Jump To Token", placeableId => canvas.notes.get(placeableId).document));
+    menuItems.push(panToPlaceable("Jump To Note", placeableId => canvas.notes.get(placeableId).document));
 });
