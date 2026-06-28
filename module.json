@@ -1,7 +1,6 @@
 {
   "id": "gmk-pan-to-placeable",
   "title": "GMK - Pan to Placeable",
-  "version": "1.0.0",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
